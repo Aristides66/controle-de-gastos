@@ -1,6 +1,5 @@
 const prompt = require("prompt-sync")()
 
-// Classe que representa um gasto
 class Gasto {
     constructor(descricao, valor) {
         this.descricao = descricao
@@ -12,7 +11,6 @@ class Gasto {
     }
 }
 
-// Classe responsável pelo controle dos gastos
 class ControleDeGastos {
     constructor() {
         this.gastos = []
@@ -49,7 +47,6 @@ class ControleDeGastos {
     }
 }
 
-// Criando o objeto do controle de gastos
 const controle = new ControleDeGastos()
 
 let continuar = true
