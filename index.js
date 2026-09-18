@@ -65,9 +65,9 @@ while (continuar) {
 
     switch (opcao) {
         case "1":
-            const descricao = prompt("O que você gastou? ")
+            const descricao = prompt("Você gastou com o que? ")
 
-            const valorDigitado = prompt("Quanto gastou? R$ ")
+            const valorDigitado = prompt("Qual valor que você gastou? R$ ")
             const valor = Number(valorDigitado.replace(",", "."))
 
             if (isNaN(valor) || valor <= 0) {
