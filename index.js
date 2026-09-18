@@ -89,7 +89,7 @@ while (continuar) {
             break
 
         case "4":
-            console.log("\nPrograma encerrado. Até mais!")
+            console.log("\nPrograma encerrado.")
             continuar = false
             break
 
